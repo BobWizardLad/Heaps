@@ -76,9 +76,6 @@ metadata/_edit_use_anchors_ = true
 
 [node name="PlayerInventoryTree" parent="." unique_id=300612940 instance=ExtResource("7_7sqls")]
 
-[node name="Inventory" parent="PlayerInventoryTree" index="1" unique_id=15317171 node_paths=PackedStringArray("upgrade_factory")]
-upgrade_factory = NodePath("../../UpgradeFactory")
-
 [node name="Spawners" type="Node2D" parent="." unique_id=486939272]
 
 [node name="SpawnerNode" parent="Spawners" unique_id=819696957 instance=ExtResource("17_umo6c")]
